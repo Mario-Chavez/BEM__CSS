@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 68px;
+}
+/* aqui reutilizamos un button solo cambiamos el color y el widtg */
+.header__button,
+.mail__button {
+  background: #6fe2fb;
+  padding: 10px 37px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+}
+.mail__button {
+  background: #ffed47;
+  width: 100%;
+}
+
+.welcome {
+}
+.welcome__text {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 100px;
+}
+.mail {
+  max-width: 234px;
+  margin: auto auto;
+}
+.mail__text {
+  font-size: 18px;
+  text-align: center;
+}
+.mail__input {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 10px;
+}
